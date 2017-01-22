@@ -42,7 +42,8 @@ values."
                       auto-completion-enable-help-tooltip t
                       auto-completion-enable-snippets-in-popup t
                       auto-completion-enable-sort-by-usage t)
-     elixir
+     (elixir :variables
+             elixir-enable-compilation-checking t)
      javascript
      erlang
      ;; better-defaults
@@ -62,7 +63,8 @@ values."
    ;; packages, then consider creating a layer. You can also put the
    ;; configuration in `dotspacemacs/user-config'.
    dotspacemacs-additional-packages
-   '(all-the-icons)
+   '(all-the-icons
+     wolfram)
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
    ;; A list of packages that will not be installed and loaded.
@@ -134,8 +136,9 @@ values."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(gotham
-                         material-light)
+   dotspacemacs-themes '(material-light
+                         noctilux
+                         gotham)
    ;; If non nil the cursor color matches the state color in GUI Emacs.
    dotspacemacs-colorize-cursor-according-to-state t
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
@@ -309,6 +312,7 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   (setq powerline-default-separator 'arrow)
   (setq neo-theme 'icons)
+  (setq wolfram-alpha-app-id "<insert key here>")
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
