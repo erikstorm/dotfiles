@@ -92,6 +92,7 @@ alias iexeb='mix escript.build'
 
 ## misc aliases
 alias mp3get='youtube-dl --extract-audio --audio-format mp3 --audio-quality 0 '
+alias puptime='ps -eo pid,comm,lstart,etime,time,args'
 
 
 # . /usr/share/powerline/bindings/zsh/powerline.zsh
