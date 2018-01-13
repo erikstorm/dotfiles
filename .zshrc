@@ -88,6 +88,7 @@ source $ZSH/oh-my-zsh.sh
 alias dockerup='sudo docker-compose build && sudo docker-compose up -d && sudo docker-compose logs -f'
 alias g='git status'
 alias iexsm='iex -S mix'
+alias iexeb='mix escript.build'
 
 ## misc aliases
 alias mp3get='youtube-dl --extract-audio --audio-format mp3 --audio-quality 0 '
