@@ -1,0 +1,19 @@
+{
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "1337",
+  // Enable usage data and errors to be sent to Microsoft.
+  "telemetry.enableTelemetry": false,
+  // Enable crash reports to be sent to Microsoft.
+  // This option requires restart to take effect.
+  "telemetry.enableCrashReporter": false,
+  // The number of spaces a tab is equal to. This setting is overriden based on the file contents when `editor.detectIndentation` is on.
+  "editor.tabSize": 2,
+  // Controls the font family.
+  "editor.fontFamily":
+    "'Monaco', 'Droid Sans Mono', monospace, 'Droid Sans Fallback'",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnSave": true,
+  "workbench.activityBar.visible": false,
+  "prettier.singleQuote": true,
+  "editor.cursorStyle": "line"
+}
